@@ -27,7 +27,7 @@ HotelService
 O serviço HotelService é responsável por gerenciar os hotéis e fornece métodos para pesquisar hotéis disponíveis com base na data e localização especificadas.
 
 **QuartoService**
-O serviço QuartoService é responsável por gerenciar os quartos de hotel e fornece métodos para adicionar quartos e recuperar informações sobre quartos específicos.
+O sistema QuartoService administra a gestão dos aposentos em estabelecimentos hoteleiros, disponibilizando funcionalidades para incluir novos quartos e obter detalhes sobre a ocupação de quartos específicos.
 
 **ReservationRequest**
 A classe ReservationRequest representa uma solicitação de reserva feita pelo usuário e possui os seguintes atributos:
@@ -42,7 +42,7 @@ ReservationController
 O controlador ReservationController é responsável por lidar com as solicitações HTTP relacionadas a reservas de quartos de hotel. Ele fornece endpoints para reservar quartos e cancelar reservas existentes.
 
 **EmailService e EmailServiceImpl**
-O serviço EmailService define um contrato para enviar e-mails de confirmação e cancelamento de reservas. O EmailServiceImpl é uma implementação concreta desse serviço, que simula o envio de e-mails para fins de demonstração.
+O EmailService define um conjunto de regras para enviar e-mails de confirmação e cancelamento de reservas. Já o EmailServiceImpl é uma implementação específica desse serviço, que simula o envio de e-mails para propósitos de demonstração.
 
 **Executando a Aplicação**
 Para executar a aplicação, siga estas etapas:
